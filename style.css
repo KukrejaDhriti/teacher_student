@@ -1,0 +1,62 @@
+body
+{
+color: rgb(251, 255, 193);
+background: rgb(18, 1, 44);
+}
+.image
+{
+    height: 50px;
+    width: 50px;
+}
+.class
+{
+    font-size: 60%;
+    color: rgb(241, 248, 148);
+}
+
+#file-upload
+{
+    display: inline-flex;
+    font-size: 20px;
+}
+
+.myNotes
+{
+    display: none;
+}
+
+.button
+{
+   background-color: rgb(24, 4, 71);
+   border-radius: 4px;
+   outline:rgb(24, 4, 71);
+   padding: 0.5em 0.8em;
+   font-family: 'Qahiri', sans-serif;
+   font-weight: bold;
+   cursor: pointer;
+}
+
+.button :active
+{
+    background-color: mediumblue;
+}
+
+.label_notes
+{
+    max-width: 250px;
+    font-size: 0.95em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.image
+{
+    width: 30%;
+    height: 20%;
+}
+
+.dowload_img
+{
+    width: 30%;
+    height: 20%;
+}
